@@ -1,0 +1,174 @@
+body {
+    background-color: #F0F0F0 !important;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+    box-shadow: -1px 0px 16px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -1px 0px 16px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 0px 16px 0px rgba(0,0,0,0.3);
+}
+
+.div-brand {
+    background-color: #000;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.titulo-brand {
+    color: rgb(60, 60, 60);
+}
+.nav-content-main {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+.nav-title {
+    color: rgb(60, 60, 60);
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+.nav-subtitle {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.div-horario, .div-contato, .div-location, .social-medias {
+    justify-content: center;
+    margin-left: 2%;
+    display: grid; 
+    width: 8rem;
+    
+}
+.menu_nav {
+    color: #000 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.contato_nav {
+    color: #000 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.loc_nav {
+        color: #000 !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+        background-color: transparent !important;
+        border: none !important;
+}
+.login> button {
+    background-color: rgb(251, 251, 2);
+    color: brown;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 100%;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+}
+.lupa-icon>svg {
+    rotate: 80deg
+}
+
+.card-logo {
+    height: 12rem !important;
+    border-radius: 15px !important;
+}
+
+.card-logo>img {
+    height: 12rem !important;
+    border-radius: 10px !important;
+}
+
+.servicos {
+    margin-top: 8%;
+}
+
+.servicos>ul {
+    list-style-type: none;
+}
+
+.servicos>ul>li>a {
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 500;
+    margin-left: -18%;
+    margin-bottom: 4%;
+    text-decoration: none;
+}
+
+.servicos>ul>li>a:hover {
+    color: #000;
+}
+
+.produto-destque-titulo {
+    color: #fff !important; 
+    font-size: 30px !important;
+    /*box-shadow: 1px -2px 24px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -2px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -2px 24px -4px rgba(0,0,0,0.75);*/
+}
+
+.produtos-destaque>.card {
+    height: 24rem !important; 
+    border-radius: 20px !important
+}
+
+.produtos-destaque>.card>img {
+    border-radius: 20px !important
+}
+
+.produtos-destaque>.card>img, .card-img-top {
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+}
+
+.card-img-overlay-destaque {
+    background-color: rgba(0,0,0,0.3); 
+    border-radius: 20px !important
+}
+
+.card-cardapio-main {
+    background-color: #E6E6E6 !important;
+    border-radius: 20px !important;
+    border: none !important; 
+}
+
+.card-cardapio {
+    width: 100%;
+    height: 18rem !important;
+    border-radius: 20px !important
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0px 0px !important
+}
+
+.img-cardapio {
+    height: 15rem !important;
+}
+
+.card-cardapio>.card-body {
+    font-size: 11px;
+}
+
+.cardapio-preco 
+{
+    color: rgb(205, 220, 57);
+    font-size: 18px;
+    font-weight: 700;
+}
+.card_contato>button{
+    background-color: rgb(85, 255, 0);
+    color: rgb(231, 231, 231);
+    justify-content: center ;
+    padding: 2%;
+    border-radius: 100%;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+}
