@@ -15,9 +15,11 @@ body {
     width: 2rem;
     height: 2rem;
 }
+
 .titulo-brand {
     color: rgb(60, 60, 60);
 }
+
 .nav-content-main {
     display: flex;
     justify-content: space-between;
@@ -37,29 +39,32 @@ body {
 
 .div-horario, .div-contato, .div-location, .social-medias {
     justify-content: center;
-    margin-left: 2%;
+    margin-left: 1%;
     display: grid; 
-    width: 8rem;
-    
+    width: 6rem;
 }
+
 .menu_nav {
     color: #000 !important;
     font-family: Arial, Helvetica, sans-serif !important;
     background-color: transparent !important;
     border: none !important;
 }
+
 .contato_nav {
     color: #000 !important;
     font-family: Arial, Helvetica, sans-serif !important;
     background-color: transparent !important;
     border: none !important;
 }
+
 .loc_nav {
         color: #000 !important;
         font-family: Arial, Helvetica, sans-serif !important;
         background-color: transparent !important;
         border: none !important;
 }
+
 .login> button {
     background-color: rgb(251, 251, 2);
     color: brown;
@@ -70,6 +75,7 @@ body {
     width: 3rem;
     height: 3rem;
 }
+
 .lupa-icon>svg {
     rotate: 80deg
 }
@@ -107,9 +113,6 @@ body {
 .produto-destque-titulo {
     color: #fff !important; 
     font-size: 30px !important;
-    /*box-shadow: 1px -2px 24px -4px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 1px -2px 24px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px -2px 24px -4px rgba(0,0,0,0.75);*/
 }
 
 .produtos-destaque>.card {
